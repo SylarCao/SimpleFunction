@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+// http://blog.csdn.net/jiangbo_phd/article/details/52806816  api调用权限
+
 @interface SFHelper : NSObject
 
 @end
