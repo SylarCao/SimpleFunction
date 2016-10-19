@@ -13,6 +13,18 @@
 		2C2A11641DB76C1F0086001D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A11621DB76C1F0086001D /* Main.storyboard */; };
 		2C2A11661DB76C1F0086001D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A11651DB76C1F0086001D /* Assets.xcassets */; };
 		2C2A11691DB76C1F0086001D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A11671DB76C1F0086001D /* LaunchScreen.storyboard */; };
+		2CD0C7441DB77DC400A8819F /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD0C73B1DB77DC400A8819F /* icon120.png */; };
+		2CD0C7451DB77DC400A8819F /* icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD0C73C1DB77DC400A8819F /* icon180.png */; };
+		2CD0C7461DB77DC400A8819F /* icon352.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD0C73D1DB77DC400A8819F /* icon352.png */; };
+		2CD0C7471DB77DC400A8819F /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD0C73E1DB77DC400A8819F /* icon40.png */; };
+		2CD0C7481DB77DC400A8819F /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD0C73F1DB77DC400A8819F /* icon58.png */; };
+		2CD0C7491DB77DC400A8819F /* icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD0C7401DB77DC400A8819F /* icon60.png */; };
+		2CD0C74A1DB77DC400A8819F /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD0C7411DB77DC400A8819F /* icon80.png */; };
+		2CD0C74B1DB77DC400A8819F /* icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD0C7421DB77DC400A8819F /* icon87.png */; };
+		2CD0C7501DB782DD00A8819F /* SFBasicVCTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0C74F1DB782DD00A8819F /* SFBasicVCTL.m */; };
+		2CD0C7541DB7831B00A8819F /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0C7531DB7831B00A8819F /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CD0C7581DB7832800A8819F /* SFLocalPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0C7561DB7832700A8819F /* SFLocalPush.m */; };
+		2CD0C7591DB7832800A8819F /* SFLocalPush.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD0C7571DB7832700A8819F /* SFLocalPush.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,21 @@
 		2C2A11651DB76C1F0086001D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C2A11681DB76C1F0086001D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C2A116A1DB76C1F0086001D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD0C73B1DB77DC400A8819F /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		2CD0C73C1DB77DC400A8819F /* icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon180.png; sourceTree = "<group>"; };
+		2CD0C73D1DB77DC400A8819F /* icon352.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon352.png; sourceTree = "<group>"; };
+		2CD0C73E1DB77DC400A8819F /* icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon40.png; sourceTree = "<group>"; };
+		2CD0C73F1DB77DC400A8819F /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		2CD0C7401DB77DC400A8819F /* icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon60.png; sourceTree = "<group>"; };
+		2CD0C7411DB77DC400A8819F /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		2CD0C7421DB77DC400A8819F /* icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon87.png; sourceTree = "<group>"; };
+		2CD0C74E1DB782DD00A8819F /* SFBasicVCTL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBasicVCTL.h; sourceTree = "<group>"; };
+		2CD0C74F1DB782DD00A8819F /* SFBasicVCTL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBasicVCTL.m; sourceTree = "<group>"; };
+		2CD0C7521DB7831B00A8819F /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		2CD0C7531DB7831B00A8819F /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		2CD0C7551DB7832700A8819F /* SFLocalPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFLocalPush.h; sourceTree = "<group>"; };
+		2CD0C7561DB7832700A8819F /* SFLocalPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFLocalPush.m; sourceTree = "<group>"; };
+		2CD0C7571DB7832700A8819F /* SFLocalPush.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFLocalPush.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 		2C2A11581DB76C1F0086001D /* SimpleFunction */ = {
 			isa = PBXGroup;
 			children = (
+				2CD0C7191DB76F9400A8819F /* sylar */,
 				2C2A115C1DB76C1F0086001D /* AppDelegate.h */,
 				2C2A115D1DB76C1F0086001D /* AppDelegate.m */,
 				2C2A115F1DB76C1F0086001D /* ViewController.h */,
@@ -77,6 +105,92 @@
 				2C2A115A1DB76C1F0086001D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CD0C7191DB76F9400A8819F /* sylar */ = {
+			isa = PBXGroup;
+			children = (
+				2CD0C71E1DB76F9400A8819F /* section */,
+				2CD0C71A1DB76F9400A8819F /* helper */,
+				2CD0C7201DB76F9500A8819F /* vendor */,
+				2CD0C71C1DB76F9400A8819F /* resource */,
+			);
+			path = sylar;
+			sourceTree = "<group>";
+		};
+		2CD0C71A1DB76F9400A8819F /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				2CD0C74D1DB782C600A8819F /* basic */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		2CD0C71C1DB76F9400A8819F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				2CD0C7391DB77DC400A8819F /* appIcon */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		2CD0C71E1DB76F9400A8819F /* section */ = {
+			isa = PBXGroup;
+			children = (
+				2CD0C74C1DB782AB00A8819F /* LocalPush */,
+			);
+			path = section;
+			sourceTree = "<group>";
+		};
+		2CD0C7201DB76F9500A8819F /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				2CD0C7511DB7831B00A8819F /* jsonKit */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		2CD0C7391DB77DC400A8819F /* appIcon */ = {
+			isa = PBXGroup;
+			children = (
+				2CD0C73B1DB77DC400A8819F /* icon120.png */,
+				2CD0C73C1DB77DC400A8819F /* icon180.png */,
+				2CD0C73D1DB77DC400A8819F /* icon352.png */,
+				2CD0C73E1DB77DC400A8819F /* icon40.png */,
+				2CD0C73F1DB77DC400A8819F /* icon58.png */,
+				2CD0C7401DB77DC400A8819F /* icon60.png */,
+				2CD0C7411DB77DC400A8819F /* icon80.png */,
+				2CD0C7421DB77DC400A8819F /* icon87.png */,
+			);
+			path = appIcon;
+			sourceTree = "<group>";
+		};
+		2CD0C74C1DB782AB00A8819F /* LocalPush */ = {
+			isa = PBXGroup;
+			children = (
+				2CD0C7551DB7832700A8819F /* SFLocalPush.h */,
+				2CD0C7561DB7832700A8819F /* SFLocalPush.m */,
+				2CD0C7571DB7832700A8819F /* SFLocalPush.xib */,
+			);
+			path = LocalPush;
+			sourceTree = "<group>";
+		};
+		2CD0C74D1DB782C600A8819F /* basic */ = {
+			isa = PBXGroup;
+			children = (
+				2CD0C74E1DB782DD00A8819F /* SFBasicVCTL.h */,
+				2CD0C74F1DB782DD00A8819F /* SFBasicVCTL.m */,
+			);
+			path = basic;
+			sourceTree = "<group>";
+		};
+		2CD0C7511DB7831B00A8819F /* jsonKit */ = {
+			isa = PBXGroup;
+			children = (
+				2CD0C7521DB7831B00A8819F /* JSONKit.h */,
+				2CD0C7531DB7831B00A8819F /* JSONKit.m */,
+			);
+			path = jsonKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +219,7 @@
 		2C2A114E1DB76C1E0086001D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SF;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = sylar;
 				TargetAttributes = {
@@ -138,9 +253,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD0C7591DB7832800A8819F /* SFLocalPush.xib in Resources */,
+				2CD0C74A1DB77DC400A8819F /* icon80.png in Resources */,
 				2C2A11691DB76C1F0086001D /* LaunchScreen.storyboard in Resources */,
+				2CD0C7441DB77DC400A8819F /* icon120.png in Resources */,
+				2CD0C74B1DB77DC400A8819F /* icon87.png in Resources */,
+				2CD0C7491DB77DC400A8819F /* icon60.png in Resources */,
+				2CD0C7481DB77DC400A8819F /* icon58.png in Resources */,
+				2CD0C7471DB77DC400A8819F /* icon40.png in Resources */,
+				2CD0C7461DB77DC400A8819F /* icon352.png in Resources */,
 				2C2A11661DB76C1F0086001D /* Assets.xcassets in Resources */,
 				2C2A11641DB76C1F0086001D /* Main.storyboard in Resources */,
+				2CD0C7451DB77DC400A8819F /* icon180.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD0C7581DB7832800A8819F /* SFLocalPush.m in Sources */,
+				2CD0C7501DB782DD00A8819F /* SFBasicVCTL.m in Sources */,
 				2C2A11611DB76C1F0086001D /* ViewController.m in Sources */,
 				2C2A115E1DB76C1F0086001D /* AppDelegate.m in Sources */,
 				2C2A115B1DB76C1F0086001D /* main.m in Sources */,
+				2CD0C7541DB7831B00A8819F /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +437,7 @@
 				2C2A116F1DB76C1F0086001D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
